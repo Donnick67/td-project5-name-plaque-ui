@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(28, 36, 48);
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    font-size: 18px;
+    top: 20%;
+    margin-left: 400px;
+}
+
+.side p{
+    border-radius: 1px;
+    border-color: pink;
+    border-width: 90px;
+    background-color: white;
+    border: 10px solid rgb(197, 130, 171);
+    color: black;
+    padding: 30px 30px 10px 30px;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+input{
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+h4{
+    text-align: inherit;
+}
+
+h5{
+    background-color: white;
+    color: rgb(31, 126, 126);
+    font-weight: lighter;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 5px;
+}
+
+button{
+    background-color: rgb(31, 126, 126);
+    padding: 5px 10px;
+}
+
+.side{
+    display: flex;
+}
+
+.price{
+    margin-left: 12px;
+}
+
+footer p:nth-child(1){
+    margin-left: 22px;
+}
+
+footer{
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 200px;
+}
