@@ -17,12 +17,13 @@ body{
     border-color: pink;
     border-width: 90px;
     background-color: white;
-    border: 10px solid rgb(197, 130, 171);
+    /* border: 10px solid rgb(197, 130, 171); */
     color: black;
-    padding: 30px 30px 10px 30px;
+    padding: 20px 40px 15px 40px;
     width: 100%;
     font-weight: bolder;
     font-size: 2rem;
+    margin-bottom: 5px;
 }
 
 input{
@@ -43,6 +44,52 @@ h5{
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 5px;
 }
+
+.flex{
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    border: 10px solid rgb(197, 130, 171);
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+
+.fir{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fir input{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+    border-color: pink;
+    background-color: rgb(136, 76, 161);
+    border: 5px solid rgb(197, 130, 171);
+    margin-bottom: 1px;
+    height: 3.5vh;
+}
+
+.lef{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.rig{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* 
+.sec{
+    border-radius: 50%;
+    border-color: pink;
+    background-color: rgb(226, 112, 112);
+    border: 5px solid rgb(197, 130, 171);
+    color: crimson;
+    font-size: 2rem;
+} */
 
 button{
     background-color: rgb(31, 126, 126);
